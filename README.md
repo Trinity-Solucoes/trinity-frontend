@@ -14,6 +14,12 @@ https://developer.github.com/v3/
 
 ## Layout
 
+### Tela busca
+![gitsearsh_1](gitsearsh_1.png)
+
+### Tela resultados
+![gitsearsh_2](gitsearsh_2.png)
+
 ## Navegação
 - Ao buscar um usuário pelo login do github, direcionar para pagina de resultado de busca.
 - Se o usuário for encontrado apresentar pagina de detalhes do usuário, caso contrario exibir mensagem amigável Notfound
@@ -36,7 +42,7 @@ https://developer.github.com/v3/
 - Controle de Qualidade: Avalia se o projeto possui qualidade assegurada por testes automatizados (por exemplo Jest).
 
 ## Submissão
-- O desafio deve ser entregue pelo GitHub. A aplicação deve estar hospedada (Heroku, Netlify, Firebase, Plunker, etc) As URLs deve ser enviada por email.
+- O desafio deve ser entregue pelo GitHub. A aplicação deve estar hospedada (Heroku, Netlify, Firebase ou Plunker) As URLs deve ser enviada por email.
 
 ## Prazo
 - O prazo de entrega é de uma semana
