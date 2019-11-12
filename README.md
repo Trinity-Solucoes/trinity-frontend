@@ -43,6 +43,7 @@ https://developer.github.com/v3/
 
 ## Submissão
 - O desafio deve ser entregue pelo GitHub. A aplicação deve estar hospedada (Heroku, Netlify, Firebase ou Plunker) As URLs deve ser enviada por email.
+- O desafio deve ter um README.md com contendo o tutorial de instalação.
 
 ## Prazo
 - O prazo de entrega é de uma semana
