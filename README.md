@@ -9,8 +9,8 @@ Implementar uma aplicação client-side, que consulte a API do GitHub e mostre o
 https://developer.github.com/v3/
 
 ## Endpoints
-Detalhes de um usuário: https://api.github.com/users/{username}
-Repositórios de um usuário: https://api.github.com/users/{username}/repos
+- Detalhes de um usuário: https://api.github.com/users/{username}
+- Repositórios de um usuário: https://api.github.com/users/{username}/repos
 
 ## Layout
 
