@@ -3,31 +3,35 @@ Trinity - Teste para desenvolvimento frontend
 
 ## Proposta
 
-Implementar uma aplicação client-side, que consulte a API do GitHub e mostre os repositórios de um determinado usuário. Esta aplicação deve funcionar nos navegadores mais recentes do mercado.
+Implementar uma aplicação client-side, que consulte a API. Esta aplicação deve funcionar nos navegadores mais recentes do mercado.
 
 ## API
-https://developer.github.com/v3/
+
+Implementar uma aplicação server-side, que atenda os seguintes requisitos:
+
+- Implementação de um CRUD de criacao de usuários
+- Utilização de uma Ferramenta de Validação de dados (YUP)
+- Utilização de um ORM para conexão com um banco de dados relacional (MySql, Postgres)
+- Implementação de Criptografia Hash no cadastro de usuario
+- Integracão com um servico de cep
+- Autenticacao JWT
 
 ## Endpoints
-- Detalhes de um usuário: https://api.github.com/users/{username}
-- Repositórios de um usuário: https://api.github.com/users/{username}/repos
 
-## Layout
-
-### Tela busca
-![gitsearsh_1](gitsearsh_1.png)
-
-### Tela resultados
-![gitsearsh_2](gitsearsh_2.png)
+- Listagem de um usuário
+- Detalhes de um usuário
+- Atualização de um usuário
+- Autenticação JWT
 
 ## Navegação
-- Ao buscar um usuário pelo login do github, direcionar para pagina de resultado de busca.
+- Ao buscar um usuário pelo email e senha,devo autenticar o usuário e direcionar para pagina de Detalhes do usuário.
 - Se o usuário for encontrado apresentar pagina de detalhes do usuário, caso contrario exibir mensagem amigável Notfound
 
 ## Requisitos
-- Eu, como usuário, desejo buscar por um usuário do GitHub;
-- Eu, como usuário, desejo ver os detalhes desse usuário que foi buscado (número de seguidores, número de seguidos, imagem do avatar, e-mail e bio);
-- Eu, como usuário, desejo ver a listagem dos repositórios desse usuário que foi buscado, ordenados pelo número decrescente de estrelas;
+- Eu, como usuário, desejo buscar por um usuário por email e senha;
+- Eu, como usuário, desejo ver os detalhes desse usuário que foi buscado (Nome, Email, Endereco, Telefone);
+- Eu, como usuário, posso atualizar as informacoes desse usuario;
+- Eu, como usuário, posso cadastrar um novo usuário(Nome, Email, Endereco, Telefone) 
 
 
 ## Definição de pronto
@@ -46,6 +50,6 @@ https://developer.github.com/v3/
 - O desafio deve ter um README.md com contendo o tutorial de instalação.
 
 ## Prazo
-- O prazo de entrega é de uma semana
+- O prazo de entrega é de 3 dias
  
 Boa Sorte!
